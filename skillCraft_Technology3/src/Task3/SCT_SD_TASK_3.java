@@ -44,11 +44,11 @@ public class SCT_SD_TASK_3 {
 							board[row][col] = 0; // Backtrack
 						}
 					}
-					return false; // No valid number found, trigger backtrack
+					return false; 
 				}
 			}
 		}
-		return true; // Puzzle solved
+		return true; 
 	}
 
 	private static boolean isValid(int[][] board, int row, int col, int num) {
