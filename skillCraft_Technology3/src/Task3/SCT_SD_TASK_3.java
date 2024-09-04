@@ -41,7 +41,7 @@ public class SCT_SD_TASK_3 {
 							if (solveSudoku(board)) {
 								return true;
 							}
-							board[row][col] = 0; // Backtrack
+							board[row][col] = 0; 
 						}
 					}
 					return false; 
